@@ -1,6 +1,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
+    background-image: url(../images/folk-pattern.png);
 }
 
 
@@ -53,3 +54,37 @@ a:visited {
 }
 
 /* END NaV */
+
+
+/* index */ 
+
+.col-sm-12>h1 {
+    color: #4aaaa5;
+    border-bottom: 2px solid #dddddd;
+}
+.aboutme {
+    height: 200px;
+    width: 200px;
+    padding-right: 20px;
+}
+
+.index-main {
+    background: white;
+    max-width: 600px;
+    height: fit-content;
+    margin: 30px;
+    border: 2px solid #dddddd;
+    overflow: auto;
+}
+
+@media screen and (max-width:640px){
+    .col-sm-4 {
+       text-align: center;
+
+    }
+
+    h1 {
+        text-align: center;
+    }
+    
+} 
